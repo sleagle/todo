@@ -56,7 +56,7 @@ http://localhost:5275/swagger
 ### 3. Start the Angular application
 
 ```bash
-cd TodoApp
+cd todo-app
 npm install
 ng serve
 ```
