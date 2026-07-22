@@ -70,7 +70,7 @@ http://localhost:5275/swagger
 |---------|---------------------|-------------|
 | GET | /api/Todo/all       | Get all todos |
 | GET | /api/Todo/task/{id} | Get todo by ID |
-| DELETE | /api/Todo/taks/{id} | Delete a todo |
+| DELETE | /api/Todo/task/{id} | Delete a todo |
 | POST | /api/Todo/task/add  | Create a todo |
 
 ---
