@@ -6,11 +6,12 @@
 /e2e/test-output/
 /.angular/
 .angular/
+/todo-app/.vscode/
 
 # Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+/todo-app/node_modules/
+/todo-app/package-lock.json
+/todo-app/yarn.lock
 
 # Environment files
 /.env
@@ -26,3 +27,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/TodoApi/.idea/

@@ -1,0 +1,29 @@
+@TodoApi_HostAddress = http://localhost:5275/api
+
+### Get all todos
+
+GET {{TodoApi_HostAddress}}/Todo/all
+Accept: application/json
+
+### Get todo task by id
+
+GET {{TodoApi_HostAddress}}/api/Todo/task/1
+Accept: application/json
+
+### Add task to todo
+
+POST {{TodoApi_HostAddress}}/api/Todo/task
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 6,
+  "name": "Test using file"
+}
+
+### Delete todo todo task by id
+
+DELETE {{TodoApi_HostAddress}}/api/Todo/task/1
+Accept: application/json
+
+####
